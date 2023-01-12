@@ -6,7 +6,8 @@ async function getData(URL) {
   try {
     const response = await fetch(URL);
     const data = await response.json();
-    document.getElementById("recipes").textContent = data.textContent;
+    console.log(data);
+    document.getElementById("recipes").innerHTML = data.name;
   } catch (error) {
     console.log(error);
   }
