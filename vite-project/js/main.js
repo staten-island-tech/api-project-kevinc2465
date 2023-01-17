@@ -8,14 +8,15 @@ async function getData(URL) {
     const response = await fetch(URL);
     const infos = await response.json();
     console.log(infos);
-    infos.forEach((infos) => {
-      DOM.recipes.insertAdjacentHTML("afterbegin"`
-      <div class="indvidual-beer">
-      <h2>${infos.name}</h2>
-      </div>
-      `);
-    });
-    DOM.recipes.innerHTML = data.name;
+    // infos.forEach((info) => {
+    //   DOM.recipes.insertAdjacentHTML("beforeend"`
+    //   <div class="indvidual-beer">
+    //   <h2>${info.name}</h2>
+    //   </div>
+    //   `);
+    // });
+    // DOM.recipes.innerHTML = infos.name;
+    console.log(infos[2].name);
   } catch (error) {
     console.log(error);
   }
