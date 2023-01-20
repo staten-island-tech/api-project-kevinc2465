@@ -1,6 +1,7 @@
 body{
     text-align: center;
-}
+    background-color: aqua;
+  }
 h1{
   color: white;
   font-size: 4rem;
@@ -8,6 +9,7 @@ h1{
 .beverage-name{
   color:;
   font-size: 2.25rem;
+  color: yellow ;
 }
 #recipes{
   display: flex;
@@ -16,53 +18,33 @@ h1{
   flex-wrap: wrap;
 }
 .result{
-  background-color: #9567f7;
+  background-color: #00ff9d;
   width: 30%;
   height: 40%;
   text-align: center;
   border-radius: 5%;
   margin-top: 2.5rem;
-  box-shadow: 8px 8px rgb(255, 103, 103);
-
+  box-shadow: 8px 8px rgb(103, 161, 255);
 }
 .image{
   width: 10vw;
   height: 50vh;
 }
-path {
-    transform-origin: 50% 50%;
-  }
-  .background--custom {
-    background-color: #FFFFFF;
-    position: absolute;
+.header{
+  font-size: 1.25rem;
+  color: rgb(255, 91, 91);
+}
+.paragraph{
+  font-size: 1.05rem;
+  color: rgb(255, 103, 255);
+}
+#attenuation-level,
+#ph,
+#alcohol-srm,
+#IBU{
+  font-size: 1.5rem;
+}
 
-    z-index: -1;
-    top: 0;
-    left: 0;
-    overflow-y: scoll;
-    overflow-x: scroll;
-  }
-  @keyframes path0 {
-    0% {
-      transform: rotate(80deg);
-    }
-    100% {
-      transform: rotate(-20deg);
-    }
-  }
-  @keyframes path1 {
-    0% {
-      transform: rotate(60deg);
-    }
-    100% {
-      transform: rotate(-40deg);
-    }
-  }
-  @keyframes path2 {
-    0% {
-      transform: rotate(50deg);
-    }
-    100% {
-      transform: rotate(-50deg);
-    }
-  }
+
+
+   
