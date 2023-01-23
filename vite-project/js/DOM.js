@@ -4,7 +4,7 @@ const DOM = {
   ph: document.getElementById("ph"),
   SRM: document.getElementById("alcohol-srm"),
   IBU: document.getElementById("IBU"),
-  reset: document.getElementById("reset"),
-}
+  // reset: document.getElementById("reset"),
+};
 
 export { DOM };
