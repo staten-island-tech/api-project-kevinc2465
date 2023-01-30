@@ -1,6 +1,7 @@
 body{
     text-align: center;
     background-color: aqua;
+    font-family: "Signika Negative", sans-serif;
   }
 h1{
   color: black;
@@ -9,12 +10,12 @@ h1{
 }
 .buttons{
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
 .beverage-name{
-  color:;
   font-size: 2.25rem;
-  color: yellow ;
+  color: black ;
+  background-color: #FFAE00;
 }
 #recipes{
   display: flex;
@@ -23,7 +24,7 @@ h1{
   flex-wrap: wrap;
 }
 .result{
-  background-color: #00ff9d;
+  background-color: #66FFBF;
   width: 30%;
   height: 40%;
   text-align: center;
@@ -37,11 +38,11 @@ h1{
 }
 .header{
   font-size: 1.25rem;
-  color: rgb(255, 91, 91);
+  color: #660046;
 }
 .paragraph{
   font-size: 1.05rem;
-  color: rgb(255, 103, 255);
+  color: #2800AD;
 }
 #attenuation-level,
 #ph,
@@ -51,6 +52,62 @@ h1{
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 1920px){
+  h1{
+    font-size: 4rem;
+  }
+  .beverage-name{
+    font-size: 2.25rem;
+  }
+}
 
+@media screen and (max-width: 1024px) {
+  h1{
+    font-size: 3.5rem;
+  }
+  .beverage-name{
+    font-size: 2.25rem;
+  }
+  .image{
+    height: 35vh;
+  }
+  .result{
+    width: 43%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #recipes{
+    display: flex;
+    flex-direction: column;
+  }
+  h1{
+    font-size: 3.5rem;
+  }
+  .beverage-name{
+    font-size: 2rem;
+  }
+  .result{
+    width: 80%;
+    margin-left: 7%;
+  }
+  .image{
+    width: 25vw;
+    height: 35vh;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    width: 60%;
+  }
+  #attenuation-level,
+  #ph,
+  #alcohol-srm,
+  #reset,
+  #IBU{
+    margin-top: 3%;
+  }
+}
 
    
