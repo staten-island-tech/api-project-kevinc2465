@@ -3,8 +3,9 @@ body{
     background-color: aqua;
   }
 h1{
-  color: white;
+  color: black;
   font-size: 4rem;
+  background-color: white;
 }
 .buttons{
   display: flex;
