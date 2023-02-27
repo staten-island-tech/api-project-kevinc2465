@@ -57,7 +57,7 @@ async function sortAttenuation() {
     console.log(error);
   }
 }
-  
+
 DOM.attenuation.addEventListener("click", function () {
   clearField();
   sortAttenuation();
