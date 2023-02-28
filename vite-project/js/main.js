@@ -13,7 +13,7 @@ async function getData(URL) {
         `
           <div class="result">
           <h2 class="beverage-name">${info.name}</h2>
-          <img class="image" src= "${info.image_url}"/>
+          <img class="image" src= "${info.image_url}" alt= "beer with you"/>
           <p class="header">Year produced: ${info.first_brewed}</p>
           <p class="header">Tagline: ${info.tagline}</p>
           <p class="paragraph">Descriptions: ${info.description}</p>
